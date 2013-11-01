@@ -1,0 +1,53 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Rate Card Management</title>
+  <meta name="description" content="Rate Card Management Tool POC">
+  <meta name="author" content="Thomas Robinson-Gore">
+  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/stylesheets/jquery.dataTables.css">
+  <link rel="stylesheet" href="/stylesheets/jquery.dataTables_themeroller.css">
+  <link rel="stylesheet" href="/stylesheets/visualsearch-datauri.css">
+  <link rel="stylesheet" href="/stylesheets/visualsearch.css">
+  <link rel="stylesheet" href="/stylesheets/application.css">
+  <link rel="stylesheet" href="/stylesheets/ColReorder.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content">
+      <header>
+          <h1>
+            Rate Card Management Tool
+          </h1>
+      </header>
+
+      <small class="hint">Try searching for <b>Client</b>, <b>Product</b>, <b>Destination</b>, <b>Carrier</b> or <b>Currency</b>:</small>
+      <div class="visualsearch"></div>
+      <table id="languages" width="100%">
+        <thead>
+          <tr>
+            <th>Client</th>
+            <th>Product</th>
+            <th>Destination</th>
+            <th>Carrier</th>
+            <th>Currency</th>
+            <th>Rate</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+    </div>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <script src="/javascripts/dependencies.js"></script>
+  <script src="/javascripts/visualsearch.js"></script>
+  <script src="/javascripts/jquery.dataTables.min.js"></script>
+  <script src="/javascripts/ColReorder.js"></script>
+  <script src="/javascripts/dataTables.htmlColumnFilter.js"></script>
+  <script src="/javascripts/application.js"></script>
+</body>
+</html>
